@@ -19,7 +19,7 @@
 		<div class="unit-head">
 			<div class="unit-inner unit-head-inner">
 				<p class="logo"><a href="{{ HOME_PATH }}">{{ site.title }}</a></p>
-				<nav class="nav-global">
+				<nav class="nav-global"
 					<ul>
 						<li class="archive"><a href="/archive.html">archive</a></li>
 						<li class="page"><a href="/pages.html">pages</a></li>
@@ -34,7 +34,14 @@
 		<div class="unit-body">
 			<div class="unit-inner unit-body-inner">
 				<div class="entry-content">
-					{{ content }}
+
+<h2>The Posts are below.</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
 				</div>
 			</div><!-- unit-inner -->
 		</div><!-- unit-body -->
