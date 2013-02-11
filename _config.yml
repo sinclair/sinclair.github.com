@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : *
-tagline: **
+title : I was thinking ...
+tagline: (Uh-oh. Here we go again.)
 author :
   name : Sinclair Bain
   email : github.stuff@gmail.com
