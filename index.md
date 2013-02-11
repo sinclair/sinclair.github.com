@@ -4,6 +4,8 @@ title: I was thinking ...
 tagline: (Uh-oh. Here we go again.)
 ---
 {% include JB/setup %}
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
 
 <h2>The Posts are below.</h2>
 <ul class="posts">
