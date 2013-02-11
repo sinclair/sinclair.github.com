@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: I was thinking ...
 tagline: (Uh-oh. Here we go again.)
 ---
